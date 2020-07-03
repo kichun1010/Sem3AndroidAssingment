@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bar"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="203dp"
+        android:layout_height="204dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="#3d85c6"
+        android:fontFamily="@font/bigshot_one"
+        android:onClick="start"
+        android:shadowColor="#00302F2F"
+        android:shadowDx="5"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="Start Game"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#3d85c6"
+        android:fontFamily="@font/bigshot_one"
+        android:onClick="gameLog"
+        android:text="Game Log"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:shadowColor="#00302F2F"
+        android:shadowDx="5"
+        android:shadowDy="3"
+        android:shadowRadius="10"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="#3d85c6"
+        android:fontFamily="@font/bigshot_one"
+        android:onClick="barChart"
+        android:text="Report on Result"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:shadowColor="#00302F2F"
+        android:shadowDx="5"
+        android:shadowDy="3"
+        android:shadowRadius="10"/>
+
+</RelativeLayout>

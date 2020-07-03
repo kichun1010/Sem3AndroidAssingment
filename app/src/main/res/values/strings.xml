@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_DBinitial">Initial</string>
+    <string name="btn_query">Query</string>
+    <dimen name="dataFont">16sp</dimen>
+    <string name="btn_action">Run</string>
+
+
+    <string name="gameDate">gameDate</string>
+    <string name="gameTime">gameTime</string>
+    <string name="opponentName">opponentName</string>
+    <string name="result">result</string>
+</resources>
